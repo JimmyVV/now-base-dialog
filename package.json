@@ -1,0 +1,65 @@
+{
+  "author": {
+    "name": "adamhe"
+  },
+  "dependencies": {
+    "react": "15.1.0"
+  },
+  "description": "基础组件 dialog 对话框",
+  "devDependencies": {},
+  "key": [
+    "now",
+    "展示组件"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "email": "adamhe@tencent.com",
+      "name": "adamhe_at_tencent"
+    },
+    {
+      "email": "evanjyu@tencent.com",
+      "name": "evanjyu_at_tencent"
+    },
+    {
+      "email": "linkzhu@tencent.com",
+      "name": "linkzhu_at_tencent"
+    },
+    {
+      "email": "lowenshi@tencent.com",
+      "name": "lowenshi_at_tencent"
+    },
+    {
+      "email": "willliang@tencent.com",
+      "name": "willliang_at_tencent"
+    },
+    {
+      "email": "willyu@tencent.com",
+      "name": "willyu_at_tencent"
+    },
+    {
+      "email": "linkzhu@tencent.com",
+      "name": "linkzhu_at_tencent"
+    },
+    {
+      "email": "herbertliu@tencent.com",
+      "name": "herbertliu_at_tencent"
+    },
+    {
+      "email": "fishineyuan@tencent.com",
+      "name": "fishineyuan_at_tencent"
+    }
+  ],
+  "name": "@tencent/now-base-dialog",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "readmeFilename": "README.md",
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register --require ./test/setup.js",
+    "prepublish": "babel --presets es2015-loose,stage-0,react src -d lib",
+    "build": "babel --presets es2015-loose,stage-0,react src -d lib && tnpm publish",
+    "dev": "babel --presets es2015-loose,stage-0,react src -d lib -w"
+  },
+  "version": "5.3.34"
+}
